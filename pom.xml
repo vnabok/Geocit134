@@ -596,7 +596,16 @@
                 <enabled>false</enabled>
             </snapshots>
         </repository>
-
+        <repository>
+            <id>spring</id>
+            <url>https://repo.spring.io/plugins-release</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
         <repository>
             <id>public-snapshot</id>
             <url>http://maven.nuxeo.org/nexus/content/groups/public-snapshot</url>
